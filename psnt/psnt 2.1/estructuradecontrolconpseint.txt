@@ -1,0 +1,72 @@
+Estructura de control con pseint - p1 
+
+¿QUÉ ES UNA ESTRUCTURA DE CONTROL?
+Las Estructuras de Control determinan el orden en que deben ejecutarse las instrucciones de un
+algoritmo
+
+se dividen en tres:
+• Estructuras secuenciales.
+• Estructuras selectivas o de decisión.
+• Estructuras repetitivas.
+
+¿QUÉ ES UNA ESTRUCTURA SECUENCIAL?
+Es la estructura en donde una acción sigue a otra de manera secuencial
+instrucion 1 -> instrucion 2 -> instrucion 3
+
+¿QUÉ ES UNA ESTRUCTURA SELECTIVA?
+Este tipo de estructuras son utilizadas para tomar decisiones lógicas
+
+¿QUÉ ES UNA CONDICIÓN?
+En programación una condición es toda sentencia de la cual se puede determinar su verdad
+o falsedad En su gran mayoría son comparaciones. Por ejemplo 4 > 5
+
+> Mayor que 3 > 2 // verdadero
+< Menor que 1 < 5 // verdadero
+= Igual que 4 = 4 // verdadero
+>= Mayor o igual que 4 >= 5 // falso
+<= Menor o igual que ‘a’ <= ‘b’ // verdadero
+<> Distinto que 10 <> 8 // verdadero
+
+OPERADORES LÓGICOS
+Estos se utilizan cuando necesitamos las expresiones lógicas con múltiples variantes y nos
+proporcionan un resultado a partir de que se cumpla o no una cierta condición
+
+operador Y - Devuelve un valor lógico verdadero si ambas expresiones son verdaderas
+operador O - Este operador devuelve verdadero si alguna de las expresiones es verdadera. En caso contrario
+devuelve “falso”.
+operador NO - Este operador cambia la devolución de una expresión, al caso contrario. Si es verdadero lo hace
+falso y si es falso lo hace verdadero
+
+Reglas de prioridad:
+
+1. Las operaciones que están encerradas entre paréntesis se evalúan primero.
+2. Las operaciones lógicas dentro de una expresión suelen seguir el siguiente orden de
+prioridad:
+? operador ( )
+? operador negación NO
+? operador conjunción Y
+? operador disyunción O
+
+¿CUÁLES SON LAS ESTRUCTURAS SELECTIVAS?
+Entendemos que las estructuras selectivas son utilizadas para tomar decisiones lógicas
+
+Las estructuras selectivas
+• Simples: Si
+• Doble: Si- SiNo
+• Múltiples: Según – Si Anidado
+
+CONDICIÓN SIMPLE
+La estructura alternativa simple si-entonces lleva a cabo una acción siempre y cuando se cumpla
+una determinada condición
+
+CONDICIÓN DOBLE
+Si la condición es verdadera, se ejecuta la acción S1 y, si es falsa, se
+ejecuta la acción S2
+
+CONDICIÓN MÚLTIPLE
+la condición múltiple en esta estructura se evalúauna condición o expresión que puede tomar n valores
+Según el valor que la expresión tenga en cada momento se ejecutan las acciones correspondientes al valor
+
+CONDICIONALES ANIDADOS O EN CASCADA
+Es posible también utilizar la instrucción Si para diseñar estructuras de selección que contengan
+más de dos alternativas

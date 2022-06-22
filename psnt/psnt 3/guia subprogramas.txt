@@ -1,0 +1,21 @@
+
+SUBPROGAMAS EN PSEINT
+
+Se denomina descendente, ya 
+que se inicia en la parte 
+superior con un problema 
+general y se termina con 
+varios subproblemas 
+de ese problema general y 
+los soluciones a esos subproblemas
+
+¿CÓMO SE DECLARA UNA FUNCIÓN?
+
+ Parámetros: uno o más parámetros de la siguiente forma: (parámetro 1 [Por Valor/Por 
+Referencia], parámetro 2 [Por Valor/Por Referencia],…]).
+• Nombre asociado con la función: que será un nombre de identificador válido.
+4
+• <acciones>: instrucciones que constituyen la definición de la función y que debe contener 
+alguna instrucción mediante la cual se asigne un valor a la variable_de_retorno.
+• Variable_de_retorno: contiene el resultado que devuelve la función que debe coincidir con el 
+tipo de dato de retorno.

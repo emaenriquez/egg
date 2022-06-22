@@ -1,0 +1,83 @@
+
+¿QUÉ ES LA PROGRAMACIÓN?
+es el acto de programar, es decir, organizar una secuencia de pasos ordenados 
+a seguir para hacer cierta cosa.
+
+¿QUÉ ES UN LENGUAJE DE PROGRAMACIÓN?
+Es un lenguaje formal que, mediante una serie de instrucciones, le permite a un programador 
+escribir un conjunto de órdenes, acciones consecutivas, datos y algoritmos para, de esa forma, 
+resolver problemas
+
+los tipos
+
+Lenguaje máquina: Es el más primitivo de los lenguajes y es una colección de dígitos binarios o bits (0 y 1)
+Ejemplo: 10110000 01100001
+
+Lenguajes de alto nivel: Tienen como objetivo facilitar el trabajo del programador, ya que utilizan unas 
+instrucciones más fáciles de entender
+
+¿QUÉ ES UN ALGORITMO?
+Un algoritmo es un método para darle instrucciones a nuestro programa y resolver un problema. 
+
+Este consiste en la realización de un conjunto de pasos lógicamente ordenados tal que, partiendo 
+de la información que le demos, permite obtener ciertos resultados que conforman la solución del 
+problema.
+
+los algoritmos son independientes tanto del lenguaje de programación en que se expresan
+
+la programación es sólo un medio para expresar un algoritmo y una computadora es  solo un procesador para ejecutarlo. 
+Tanto el lenguaje de programación como la computadora son los medios para obtener un fin
+
+CARACTERÍSTICAS DE LOS ALGORITMOS
+	- preciso: e indicar el orden de realización de cada paso
+	- definido: Es decir, si se ejecuta un mismo algoritmo dos veces, con los mismos datos de 
+	  entrada, se debe obtener el mismo resultado cada vez
+	- finito: debe tener un número finito de pasos. Debe tener un inicio y un final.
+	- correcto: el resultado del algoritmo debe ser el resultado esperado.
+	- independiente tanto del lenguaje de programación en el que se expresa como de la computadora que lo ejecuta
+
+un algoritmo básicamente consta de tres elementos: 
+Datos de Entrada -> Procesos -> la Información de Salida.
+
+¿CÓMO REPRESENTAR UN ALGORITMO?
+La mejor manera de representar un algoritmo, es a través de un diagrama de flujo. 
+Un Diagrama de Flujo representa la esquematización gráfica de un algoritmo
+Un algoritmo consta de dos componentes: una cabecera de programa y un bloque algoritmo
+	algoritmo 
+	cabecera del programa 
+	sección de declaración 
+	sección de acciones 
+
+¿QUÉ ES EL PSEUDOCÓDIGO?
+El pseudocódigo es una herramienta de programación en la que las instrucciones se escriben en 
+palabras similares al inglés o español, que facilitan tanto la escritura como la lectura de programas
+
+PROGRAMA
+Un programa es un conjunto de instrucciones — órdenes dadas a la computadora 
+— que producirán la ejecución de una determinada tarea
+
+ESPECIFICACIONES DE UN PROGRAMA
+el programador debe establecer el conjunto de especificaciones que debe 
+contener el programa: entrada, salida y algoritmos de resolución, que incluirán las técnicas 
+para obtener las salidas a partir de las entradas
+
+CODIFICACIÓN
+es la operación de escribir la solución del problema en una serie de 
+instrucciones detalladas, en un código reconocible por la computadora
+
+¿QUÉ ELEMENTOS POSEE UN PROGRAMA?
+Los elementos de un programa son: identificadores, variables, constantes, operadores, palabras 
+reservadas
+
+TIPOS DE INSTRUCCIONES
+Las instrucciones —acciones— básicas que se pueden implementar de modo general
+
+INSTRUCCIONES DE INICIO/FIN 
+Son utilizadas para delimitar bloques de código Por ejemplo Algoritmo y FinAlgoritmo
+
+INSTRUCCIONES DE ESCRITURA O SALIDA
+Se utilizan para escribir o mostrar mensajes o contenidos de las variables en un dispositivo de salida
+
+INSTRUCCIONES DE LECTURA
+Las operaciones de entrada permiten leer datos de un dispositivo de entrada y asignarlos a 
+determinadas variables.
