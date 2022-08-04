@@ -36,28 +36,8 @@ public class Ejercicio7Persona {
         Persona p4 = srv.crearPersona();
         srv.calcularIMC(p4);
         srv.esMayorDeEdad(p4);
+            
         
-        int cont = 0;
-        int cont2=0;
-        int cont3 = 0;
-        //int cont4=0;
-        
-        switch (srv.calcularIMC(p1)) {
-            case -1:
-                cont = cont +1;
-                System.out.println("contador 2" + cont);
-                break;
-            case 0:
-                cont2 = cont2 + 1;
-                System.out.println("contador 2" + cont2);
-                break;
-            case 1:
-                cont3 = cont3 + 1;
-                System.out.println("contador 2" + cont3);
-                break;
-            default:
-                break;
-        }
     }
 }    
 

@@ -57,7 +57,7 @@ public class Metodos {
         
     }
     
-    public int calcularIMC(Persona n1){
+    public void calcularIMC(Persona n1){
         int valor = 0;
         double peso = (n1.getPeso() / (n1.getAltura()*2));
         
@@ -72,7 +72,6 @@ public class Metodos {
             valor = 1;
         }
         
-        return valor;
     }
 
     public void  esMayorDeEdad(Persona n1){
