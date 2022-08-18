@@ -14,24 +14,21 @@ import metodos.Metodos;
  */
 public class Ejercicio8Cadena {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+           /**
+                * @param args the command line arguments
+          */
+          public static void main(String[] args) {
         
-        Metodos c1 = new Metodos();
+                    Metodos c1 = new Metodos();
         
-        Cadena srv = c1.ingreseFrase();
+                    Cadena srv = c1.ingreseFrase();
         
-        c1.mostrarVocales(srv);
-        c1.invertir(srv);
-        c1.vecesRepetido(srv);
-        c1.compararLongitud(srv);
-        c1.unirFrases(srv);
-        c1.reemplazar(srv);
-        c1.contiene(srv);
-    }
-    
-    
-    
-}
+                    c1.mostrarVocales(srv);
+                    c1.invertir(srv);
+                    c1.vecesRepetido(srv);
+                    c1.compararLongitud(srv);
+                    c1.unirFrases(srv);
+                    c1.reemplazar(srv);
+                    c1.contiene(srv);
+          }
+ }

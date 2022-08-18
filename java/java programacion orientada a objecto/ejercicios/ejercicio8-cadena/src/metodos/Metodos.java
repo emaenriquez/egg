@@ -29,11 +29,10 @@ public class Metodos {
         
         for (int i = 0; i < c1.getLongitud(); i++) {
             
-            if(c1.getCadena().charAt(i)=='a' || c1.getCadena().charAt(i)== 'e' || c1.getCadena().charAt(i)=='i' || 
-            c1.getCadena().charAt(i)=='o' || c1.getCadena().charAt(i)=='u'){
-                contadorVocales++;
-                
-            }
+                  if(c1.getCadena().charAt(i)=='a' || c1.getCadena().charAt(i)== 'e' || c1.getCadena().charAt(i)=='i' || 
+                        c1.getCadena().charAt(i)=='o' || c1.getCadena().charAt(i)=='u') {
+                        contadorVocales++;          
+                   }
         }
         
         System.out.println(" - la cantidad de vocales son " + contadorVocales);
