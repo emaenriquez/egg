@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ej_inversa">
+  <ClassDiagramComponents>
+    <Class name="Persona" package="ej_inversa" visibility="public" xPosition="232.0" yPosition="161.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

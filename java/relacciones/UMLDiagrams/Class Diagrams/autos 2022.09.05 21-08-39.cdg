@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="autos">
+  <ClassDiagramComponents>
+    <Class name="autos" package="autos" visibility="public" xPosition="426.0" yPosition="313.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="personas" package="autos" visibility="public" xPosition="426.0" yPosition="61.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="ee" source="autos.autos" target="autos.personas" type="Composition" sourceCardinality="0..1" targetCardinality="1..*" collectionType="List"/>
+    <HasRelation name="eee" source="autos.personas" target="autos.autos" type="Composition" sourceCardinality="0..1" targetCardinality="1..*" collectionType="List"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

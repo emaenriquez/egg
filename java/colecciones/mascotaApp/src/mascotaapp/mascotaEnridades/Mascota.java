@@ -1,26 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package mascotaapp.mascotaEnridades;
 
-/**
- *
- * @author emanuel
- */
-public class Mascota {
+import enumeraciones.Sexoanimal;
+
+public class Mascota <T> {
     public String nombre;
     public String apodo;
     public String tipo;
-
+    private T raza;
+    private Sexoanimal sexo;
+    
+    
     public Mascota() {
     }
 
-    public Mascota(String nombre, String apodo, String tipo) {
+    public Mascota(String nombre, String apodo, String tipo, Sexoanimal sexo) {
         this.nombre = nombre;
         this.apodo = apodo;
         this.tipo = tipo;
+        this.sexo = sexo;
     }
 
     public String getNombre() {
@@ -35,6 +33,18 @@ public class Mascota {
         return tipo;
     }
 
+    public T getRaza() {
+        return raza;
+    }
+
+    public void setRaza(T raza) {
+        this.raza = raza;
+    }
+    
+    public Sexoanimal getSexo() {
+        return sexo;
+    }
+    
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -47,11 +57,14 @@ public class Mascota {
         this.tipo = tipo;
     }
 
+    public void setSexo(Sexoanimal sexo) {
+        this.sexo = sexo;
+    }
+
     @Override
     public String toString() {
-        return "Mascota{" + "nombre=" + nombre + ", apodo=" + apodo + ", tipo=" + tipo + '}';
+        return "Mascota{" + "nombre=" + nombre + ", apodo=" + apodo + ", tipo=" + tipo + ", raza=" + raza + ", sexo=" + sexo + '}';
     }
-    
     
     
     

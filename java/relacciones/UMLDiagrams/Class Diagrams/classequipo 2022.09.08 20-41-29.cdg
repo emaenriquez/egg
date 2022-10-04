@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="classequipo">
+  <ClassDiagramComponents>
+    <Class name="Equipo" package="classequipo" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="jugadores" type="List&lt;Jugador&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="List&lt;Jugador&gt;" name="jugadores"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getJugadores" returnType="List&lt;Jugador&gt;" visibility="public"/>
+        <Method name="setJugadores" returnType="void" visibility="public">
+          <Argument type="List&lt;Jugador&gt;" name="jugadores"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ej_inversa">
+  <ClassDiagramComponents>
+    <Class name="Persona" package="ej_inversa" visibility="public" xPosition="167.0" yPosition="73.0">
+      <Fields>
+        <Field name="person" type="List&lt;Persona&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="person" source="ej_inversa.Persona" target="ej_inversa.Persona" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Persona&gt;"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

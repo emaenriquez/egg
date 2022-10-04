@@ -5,6 +5,8 @@
  */
 package mascotaapp.Sersviciomascota;
 
+import enumeraciones.Sexoanimal;
+import enumeraciones.RazaPeruna;
 import java.util.ArrayList;
 import java.util.Scanner;
 import mascotaapp.mascotaEnridades.Mascota;
@@ -23,7 +25,7 @@ public class ServicioMascota {
         this.masco = new ArrayList();
     }
     
-    public Mascota crearMascota(){
+    public void crearMascota(){
         System.out.println("ingrese su nombre");
         String nombre = leer.nextLine();
           
@@ -33,7 +35,7 @@ public class ServicioMascota {
         System.out.println("introduce el tipo ");
         String tipo = leer.nextLine();
           
-        return  new Mascota(nombre, apodo, tipo);
+      //  return new Mascota(nombre, apodo, tipo, RazaPeruna.BEAGEL, Sexoanimal.MACHO);
     }
     
     public void agregarMascota(Mascota m){
@@ -51,7 +53,7 @@ public class ServicioMascota {
            
     }
    
-    public void fabricaChiquito(int cantidad){
+    /* public void fabricaChiquito(int cantidad){
         for (int i = 0; i < cantidad; i++) {
             masco.add( new Mascota("ternera", "neri", "mestizo") );
                     
@@ -64,7 +66,7 @@ public class ServicioMascota {
             agregarMascota(mascotaCreada);
             System.out.println(mascotaCreada.toString());
         }
-    }
+    }*/
     
    /*
      public void actualizarMascota(int index){
@@ -78,9 +80,9 @@ public class ServicioMascota {
         if(index <= masco.size()-1){
             System.out.println("");
             System.out.println("-----Actualizar Mascota-----");
-            Mascota m = crearMascota();
+            //Mascota m = crearMascota();
         
-            masco.set(index,m);
+            //masco.set(index,m);
         } else {
             System.out.println("fallo al actualzar el indice es erroneo");
         }

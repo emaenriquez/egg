@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="mascotaapp.mascotaEnridades">
+  <ClassDiagramComponents>
+    <Class name="Mascota" package="mascotaapp.mascotaEnridades" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="public"/>
+        <Field name="apodo" type="String" visibility="public"/>
+        <Field name="tipo" type="String" visibility="public"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="apodo"/>
+          <Argument type="String" name="tipo"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getApodo" returnType="String" visibility="public"/>
+        <Method name="getTipo" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="setApodo" returnType="void" visibility="public">
+          <Argument type="String" name="apodo"/>
+        </Method>
+        <Method name="setTipo" returnType="void" visibility="public">
+          <Argument type="String" name="tipo"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Usuario" package="mascotaapp.mascotaEnridades" visibility="public" xPosition="563.0" yPosition="60.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="public"/>
+        <Field name="apodo" type="String" visibility="public"/>
+        <Field name="tipo" type="String" visibility="public"/>
+        <Field name="mascota" type="List&lt;Mascota&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="mascota" source="mascotaapp.mascotaEnridades.Usuario" target="mascotaapp.mascotaEnridades.Mascota" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Mascota&gt;"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
