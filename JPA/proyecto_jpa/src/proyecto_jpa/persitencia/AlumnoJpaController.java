@@ -13,10 +13,8 @@ import javax.persistence.criteria.Root;
 import proyecto_jpa.logica.Alumno;
 import proyecto_jpa.persitencia.exceptions.NonexistentEntityException;
 
-
 public class AlumnoJpaController implements Serializable {
 
-    
     public AlumnoJpaController(EntityManagerFactory emf) {
         this.emf = emf;
     }
@@ -24,6 +22,7 @@ public class AlumnoJpaController implements Serializable {
     public AlumnoJpaController(){
         emf = Persistence.createEntityManagerFactory("pruebaJPAPU");
     }
+    
     
     private EntityManagerFactory emf = null;
 

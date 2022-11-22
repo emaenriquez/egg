@@ -29,4 +29,26 @@ public class ControladoraLogica {
         return controlPersistencia.traerListaAlumnos();
     }
     
+    // Carrera
+    public void crearCarrera(Carrera carrera){
+        controlPersistencia.crearCarrera(carrera);
+    }
+    
+    
+    public void eliminarCarrera(int id){
+        controlPersistencia.eliminarCarrera(id);
+    }
+    
+    public void editarCarrera(Carrera carrera){
+        controlPersistencia.editarCarrera(carrera);
+    }
+    
+    public Carrera traerCarrera(int id){
+        return controlPersistencia.traerCarrera(id);
+    }
+    
+    public ArrayList<Carrera> traerListaCarrera(){
+        return controlPersistencia.traerListaCarrera();
+    }
+    
 }
