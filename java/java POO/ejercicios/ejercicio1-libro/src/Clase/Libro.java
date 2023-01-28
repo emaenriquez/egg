@@ -28,5 +28,6 @@ public class Libro {
         this.autor = autor;
         this.numeroPagina = numeroPagina;
     }  
-    
+
+
 }
